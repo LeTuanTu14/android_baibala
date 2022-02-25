@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BÀI BA LÁ"
+        android:gravity="center"
+        android:backgroundTint="#95EC6F"
+        android:textColor="@color/black"
+        android:textSize="30dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bạn:"
+        android:textSize="25dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+
+        <ImageView
+            android:id="@+id/la1"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/b1fv"/>
+
+        <ImageView
+            android:id="@+id/la2"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/b1fv"/>
+
+        <ImageView
+            android:id="@+id/la3"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/b1fv"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tv_kqban"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kết quả của bạn"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/bt_rutbai"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="155dp"
+        android:layout_marginTop="100dp"
+        android:text="Bắt đầu"/>
+
+
+    <TextView
+        android:id="@+id/tv_kqchungcuoc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kết quả"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Máy:"
+        android:textSize="25dp"
+        android:layout_marginTop="80dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+
+        <ImageView
+            android:id="@+id/la4"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/b1fv"/>
+
+        <ImageView
+            android:id="@+id/la5"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/b1fv"/>
+
+        <ImageView
+            android:id="@+id/la6"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/b1fv"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tv_kqmay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kết quả của máy"
+        android:gravity="center"/>
+
+</LinearLayout>
